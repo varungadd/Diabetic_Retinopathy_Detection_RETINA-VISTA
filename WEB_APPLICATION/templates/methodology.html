@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>How RetinaVista Works</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- For Icons -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="navbar">
+            <a href="/">Home</a>
+            <a href="/about">About Us</a>
+            <a href="/contact">Contact Us</a>
+            <a href="/upload">Upload Image</a>
+            <a href="/feedback">Feedback</a>
+            <a href="/methodology">Methodology</a>
+    </div>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">How RetinaVista Works</h1>
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <i class="fas fa-camera-retro fa-3x"></i>
+                <h3>Image Capture</h3>
+                <p>High-resolution retinal images are captured using state-of-the-art cameras.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <i class="fas fa-cogs fa-3x"></i>
+                <h3>Image Processing</h3>
+                <p>Advanced algorithms enhance the images to highlight key features relevant to diagnosing retinopathy.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <i class="fas fa-brain fa-3x"></i>
+                <h3>AI Detection</h3>
+                <p>Our custom-built machine learning models analyze the processed images to identify signs of diabetic retinopathy.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <i class="fas fa-clipboard-list fa-3x"></i>
+                <h3>Results Delivery</h3>
+                <p>Results are compiled into a detailed report, which includes both the diagnostic outcome and recommended next steps.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}Welcome to RetinaVista{% endblock %}
+
+{% block content %}
+<div class="main">
+    <h1>Welcome to RetinaVista</h1>
+    <p>Utilize cutting-edge technology to analyze retinal images and detect signs of diabetic retinopathy. Ensure early diagnosis and timely treatment with our state-of-the-art detection system.</p>
+    <a href="{{ url_for('upload') }}" class="btn">Upload Image</a>
+</div>
+{% endblock %}

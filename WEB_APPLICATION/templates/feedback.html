@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Feedback - Diabetic Retinopathy Detection</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/about">About Us</a>
+        <a href="/contact">Contact Us</a>
+        <a href="/upload">Upload Image</a>
+        <a href="/feedback">Feedback</a>
+        <a href="/methodology">Methodology</a>
+    </div>
+    <div class="main">
+        <h1>Feedback</h1>
+        <p>We appreciate your feedback to improve our service.</p>
+        <form action="/feedback" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" class="btn" value="Submit Feedback">
+        </form>
+    </div>
+</body>
+</html>
